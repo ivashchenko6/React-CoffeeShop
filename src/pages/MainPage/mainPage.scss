@@ -1,0 +1,116 @@
+.promo__main {
+    min-height: 640px;
+    padding: 30px 0 201px 0;
+    background: url('../../img/bg/main.jpg') center center/cover no-repeat;
+
+    &-title {
+        color: #FFF;
+        text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        font-family: Merienda;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 111px;
+    }
+
+
+    &-subtitle {
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+
+        &:first-child {
+            margin-top: 35px;
+        }
+        
+    }
+
+    &-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        margin: 0 auto;
+        margin-top: 25px;
+        width: 120px;
+        height: 30px;
+        border-radius: 3px;
+        border: 1px solid #FFF;
+        background: rgba(196, 196, 196, 0.00);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 700;
+        transition: 0.5s all;
+
+        &:hover {
+            background-color: rgba(252, 252, 252, 0.534);
+            
+        }
+    }
+}
+
+
+
+
+.about {
+    padding: 80px 0 101px 0;
+
+    &__title {
+        text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    &__paragraph {
+        display: block;
+        width: 589px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    &__paragraph:last-child {
+        margin-top: 25px;
+    }
+}
+
+
+
+.best {
+    padding: 80px 0 110px 0;
+    
+    background: url('../../img/bg/best.jpg') center center/cover no-repeat;
+
+    &__title {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    &__goods-list {
+        margin: 0 auto;
+        list-style-type: none;
+        padding: 0;
+        width: 900px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+}
+
+.main-footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 355px;
+    margin: 0 auto;
+
+
+
+    .divider-wrapper {
+        margin-top: 30px;
+    }
+}
