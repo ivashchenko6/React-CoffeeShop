@@ -1,8 +1,8 @@
 import { Component } from "react";
 import { Link } from "react-router-dom";
 
-import whiteLogo from '../../icons/white-logo.svg';
-import blackLogo from '../../icons/black-brink-logo.svg';
+import whiteBeans from '../../icons/logoBeans.png';
+import blackBeans from '../../icons/logoBlackBeans.png';
 
 
 import './navigationMenu.scss';
@@ -20,11 +20,11 @@ export default class NavigationMenu extends Component {
         let logo;
         if(type === 'header') {
             navClasses += ' navigation-header';
-            logo = whiteLogo;
+            logo = whiteBeans;
         } else {
             navClasses += ' navigation-footer';
             navItemClass += ' navigation-item_black';
-            logo = blackLogo;
+            logo = blackBeans;
         }
 
         return (
@@ -32,7 +32,10 @@ export default class NavigationMenu extends Component {
                 <ul className="navigation-list">
                     <li className={navItemClass}>
                         <Link to="/" className="logo-link">
-                            <img src={logo} alt="logo" className="white-logo__img"/>
+                            <div className="logo-wrapper">
+                                <img src={logo} alt="logo" className="logo__img"/>
+                                <div className="logo-text">Coffee house</div>
+                            </div>
                         </Link>
                     </li>
                     <li className={navItemClass}>

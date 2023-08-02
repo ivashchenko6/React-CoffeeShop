@@ -11,8 +11,13 @@
         align-items: center;
     }
 
+    .logo-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
     &-item {
-        
+        padding-top: 9px;
         a {
             
             text-decoration: none;
@@ -30,6 +35,11 @@
     padding-left: 148px;
 }
 
+.navigation-footer {
+    .logo__img {
+        padding-bottom: 20px;
+    }
+}
 
 .navigation-item_black {
     a {

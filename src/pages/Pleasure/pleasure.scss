@@ -1,0 +1,76 @@
+.pleasure__main {
+    height: 260px;
+    background: url('../../img/bg/pleasure.png') center (center/cover) no-repeat;
+    padding-top: 30px;
+
+    
+    &-title {
+        text-align: center;
+        margin-top: 60px;
+        color: white;
+        font-size: 40px;
+        
+    }
+
+}
+
+
+
+.pleasure__about {
+
+
+
+    &-wrapper {
+        margin: 0 auto;
+        width: 710px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 73px;
+    }
+
+
+    &-title {
+        text-align: center;
+        font-size: 25px;
+
+    }
+    &-paragraph {
+        text-align: center;
+        width: 346px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .line {
+        width: 240px;
+        height: 1px;
+        background: #000;
+    }
+}
+
+
+.pleasure__goods {
+    display: flex;
+    justify-content: center;
+    padding: 60px  0;
+
+    &-wrapper {
+        width: 802px;
+        margin: 0 auto;
+    }
+    
+}
+
+
+
+.pleasure__footer {
+    width: 355px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    .divider-wrapper {
+        margin-top: 30px;
+    }
+}

@@ -1,25 +1,30 @@
 import { Component } from "react";
 
 
-
-
-
-
-
 import './filter.scss';
 
 
 export default class Filter extends Component {
+    state = {
+        term: ''
+    }
+
+
+    onInputTerm = (e) => {
+        const term = e.target.value;
+        this.setState({term});
+        this.props.updateSearch(term);
+    }
 
 
     render() {
-
+        
         return (
-
+            
             <section className="filter">
                 <div className="search-wrapper">
                     <p className="filter-text">Looking for</p>
-                    <input type="text" className="search-input" placeholder="start typing here..."/>
+                    <input type="text" value={this.state.term} onChange={this.onInputTerm} className="search-input" placeholder="start typing here..."/>
                 </div>
 
                 <div className="countries-wrapper">
